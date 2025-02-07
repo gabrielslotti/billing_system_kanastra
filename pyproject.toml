@@ -1,0 +1,18 @@
+[project]
+name = "billing-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "dependency-injector>=4.45.0",
+    "fastapi>=0.115.8",
+    "fastapi-healthchecks>=1.1.0",
+    "ipdb>=0.13.13",
+    "psycopg2>=2.9.10",
+    "python-multipart>=0.0.20",
+    "sqlalchemy>=2.0.37",
+    "uvicorn>=0.34.0",
+    "yarl>=1.18.3",
+]
